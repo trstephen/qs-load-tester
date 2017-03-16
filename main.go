@@ -52,7 +52,7 @@ var config struct {
 }
 
 func loadConfig() {
-	app := kingpin.New("quoteserver load tester", "Requests quotes at a fixed rate")
+	app := kingpin.New("qs-load-tester", "Requests quotes at a fixed rate")
 
 	app.Flag("host", "Quote server host address").
 		Short('h').

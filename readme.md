@@ -11,7 +11,7 @@ This tool will make a new, concurrent request to the quoteserver for a random st
 ```sh
 # Make a new request every 20ms, sustain for 60s.
 # Connect to quoteserve.seng.uvic.ca:4440 by default.
-qs-load-tester --delay=20 --length=600 1> quotes.txt
+qs-load-tester --delay=20 --length=60 1> quotes.txt
 ```
 
 Stats include
