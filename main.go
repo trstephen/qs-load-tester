@@ -21,6 +21,9 @@ var (
 )
 
 func main() {
+	// Seed random to get non-deterministic stock names
+	rand.Seed(time.Now().Unix())
+
 	loadConfig()
 	resolveTCPAddresses()
 
