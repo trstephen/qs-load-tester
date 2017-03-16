@@ -18,3 +18,5 @@ Stats include
 - *Quotes*: Number of quotes returned
 - *Requests*: Number of requests emitted. Will be >= *Quotes*
 - *Req per sec*: Estimate of request volume.
+
+Use `qs-load-tester --help` for a wonderful list of capabilities.
